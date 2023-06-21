@@ -9,6 +9,8 @@ public class SummonShoulderLegs : MonoBehaviour
     public GameObject pad3;
     public GameObject pad4;
 
+    public GameObject monsterlimbs;
+
     public GameObject redCorridorLight1;
     public GameObject redCorridorLight2;
     public GameObject monster;
@@ -33,6 +35,7 @@ public class SummonShoulderLegs : MonoBehaviour
             monster.SetActive(true);
             redLights.SetActive(true);
             audiosolved.enabled = true;
+            monsterlimbs.SetActive(true);
         }
     }
 }
