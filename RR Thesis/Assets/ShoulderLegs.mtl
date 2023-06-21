@@ -1,0 +1,13 @@
+# Blender 3.3.1 MTL File: 'ready.blend'
+# www.blender.org
+
+newmtl Material
+Ka 1.000000 1.000000 1.000000
+Ks 0.768182 0.768182 0.768182
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:/greta/models/shoulderlegs/Textures/checker_material_4096x4096_Base_color.png
+map_Ns D:/greta/models/shoulderlegs/Textures/checker_material_4096x4096_Roughness.png
+map_Bump -bm 1.000000 D:/greta/models/shoulderlegs/Textures/checker_material_4096x4096_Normal_OpenGL.png

@@ -1,0 +1,13 @@
+# Blender 3.3.1 MTL File: 'untitled.blend'
+# www.blender.org
+
+newmtl 06_-_Default.001
+Ka 0.050000 0.050000 0.050000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd F:/greit/Horror_Pack_1/Architectural/Textures/Architect_ALB.psd
+map_Ns F:/greit/Horror_Pack_1/Architectural/Textures/Architect_MET.png
+map_Bump -bm 1.000000 F:/greit/Horror_Pack_1/Architectural/Textures/Architect_NM.png
