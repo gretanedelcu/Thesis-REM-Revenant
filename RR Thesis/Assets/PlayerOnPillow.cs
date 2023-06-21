@@ -23,12 +23,15 @@ public class PlayerOnPillow : MonoBehaviour
 
      void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MainCamera") && lamp.activeSelf == false)
+        if (lamp.activeSelf == false)
         {
-            isPlayerOnPillow = true;
-            Debug.Log("Player entered trigger!");
-            RoomOriginal.SetActive(false);
-            RoomSecond.SetActive(true);
+            if (other.CompareTag("MainCamera"))
+            {
+                isPlayerOnPillow = true;
+                Debug.Log("Player entered trigger!");
+                RoomOriginal.SetActive(false);
+                RoomSecond.SetActive(true);
+            }
         }
     }
 }
