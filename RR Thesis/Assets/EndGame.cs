@@ -20,7 +20,7 @@ public class EndGame : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(1);
+            Application.Quit();
         }
     }
 }
