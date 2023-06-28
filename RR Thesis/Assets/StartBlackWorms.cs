@@ -6,6 +6,7 @@ public class StartBlackWorms : MonoBehaviour
 {
 
     public GameObject VFX;
+    public AudioSource surce;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class StartBlackWorms : MonoBehaviour
         if (other.tag == "Player")
         {
             VFX.SetActive(true);
+            surce.enabled = true;
         }
     }
 }
